@@ -1,0 +1,39 @@
+.video iframe {
+  margin-left: 29%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.sector1 {
+  text-align: center;
+}
+.heading {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #72e46e;
+}
+.para {
+  padding-bottom: 20px;
+  color: #65bd75;
+}
+.text {
+  width: 85%;
+  margin-left: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: start;
+  font-family: sans-serif;
+  font-style: 8px;
+  color: #94a4ca;
+  line-height: 30px;
+}
+.barcode {
+  width: 23%;
+  margin-left: 38%;
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+.image {
+  width: 76%;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}

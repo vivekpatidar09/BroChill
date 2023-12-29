@@ -1,0 +1,117 @@
+section {
+  margin-top: 110px;
+  width: 86%;
+  margin-left: 8%;
+  padding-bottom: 30px;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.heading {
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.1em solid #3a3a3a;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+
+.headsection {
+  padding-top: 30px;
+}
+@keyframes typing {
+  from {
+    width: 5vw;
+  }
+  to {
+    width: 35vw;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3a3a3a;
+  }
+}
+.termssection {
+  padding-top: 30px;
+}
+.termshead {
+  font-size: 22px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.termshead {
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.1em solid #3a3a3a;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 5vw;
+  }
+  to {
+    width: 35vw;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3a3a3a;
+  }
+}
+.privacyhead {
+  font-size: 22px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.privacysection {
+  padding-top: 30px;
+}
+.privacyhead {
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.1em solid #3a3a3a;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 5vw;
+  }
+  to {
+    width: 18vw;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3a3a3a;
+  }
+}
+.guide p {
+  line-height: 30px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.guide a {
+  color: black;
+}

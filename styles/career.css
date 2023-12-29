@@ -1,0 +1,108 @@
+.elements1 {
+  margin-top: 150px;
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+}
+.b-image {
+  background-image: url(https://www.brochill.com/wp-content/uploads/2021/10/brochill-open-position-design-2.png);
+  height: 400px;
+  cursor: pointer;
+}
+.b-image a {
+  text-decoration: none;
+  color: #fff;
+}
+.heading {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+}
+.img-title {
+  text-align: center;
+  padding: 70px 0px 40px 0px;
+  font-weight: 400;
+  font-size: 35px;
+  font-family: "ABeeZee", sans-serif;
+}
+.overlay-inner p {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+}
+.accordion {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+.accordion-button:hover {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0cf108 0%, #024605 111%);
+}
+
+.accordion-button i {
+  color: #0cf108;
+}
+.accordion-button:hover i {
+  color: #fff;
+}
+.accordion-button {
+  font-weight: 600;
+  gap: 8px;
+}
+.accordion-button:hover span {
+  color: #fff;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-item {
+  --bs-accordion-border-color: none;
+}
+blockquote {
+  border-left: 5px solid rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  font-style: italic;
+}
+.accordion-body h1 {
+  font-weight: 700;
+}
+.accordion-body img {
+  width: 50px;
+}
+input[type="file"] {
+  color: #666;
+  height: auto;
+  border: 2px solid #eaeaea;
+  border-radius: 2px;
+  background: #fafafa;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+input:not([type="submit"]),
+select {
+  width: 100%;
+  padding: 0.75em;
+  border: 2px solid #eaeaea;
+  border-radius: 2px;
+  background: #fafafa;
+}
+input:not([type="submit"]):focus,
+select:focus {
+  border: 2px solid #eaeaea;
+  background-color: #fff;
+}
+.submit {
+  padding: 14px 28px;
+  background-color: #0170b9;
+  border-color: #0170b9;
+  border-radius: 2px;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}

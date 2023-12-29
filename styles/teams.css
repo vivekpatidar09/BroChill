@@ -1,0 +1,334 @@
+.team {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.teamhead {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "ABeeZee", sans-serif;
+  color: #3a3a3a;
+}
+h1 {
+  overflow: hidden;
+  border-right: 0.1em solid #3a3a3a;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(30, end) infinite,
+    blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0vw;
+  }
+  to {
+    width: 12vw;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3a3a3a;
+  }
+}
+.leadership {
+  width: 85%;
+  margin-left: 8%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image {
+  width: 325px;
+}
+.founder {
+  border: 1px solid #dcd9d9;
+  position: relative;
+  width: 325px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.founder h2 {
+  color: #343434;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.founder p {
+  color: #343434;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #48b76a;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+.founder-img:hover .overlay {
+  top: 0;
+  height: 81%;
+}
+
+.text {
+  white-space: wrap;
+  color: white;
+  font-size: 20px;
+  font: bold;
+  text-align: justify;
+  position: absolute;
+  overflow: hidden;
+  top: 62%;
+  left: 50%;
+  line-height: 1.5;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text p {
+  color: #fff;
+}
+.tech {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+}
+.tech-team img {
+  width: 100%;
+}
+.tech-team {
+  position: relative;
+  width: 190px;
+  padding: 10px 0px;
+}
+.techno {
+  width: 100%;
+}
+.technical :hover {
+  background: linear-gradient(180deg, #c1d834 0%, #5eae60 100%);
+}
+.overlay1 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+.tech-img:hover .overlay1 {
+  top: 0;
+  height: 70%;
+}
+.text1 {
+  white-space: wrap;
+  color: #000;
+  font-family: sans-serif;
+  text-align: justify;
+  position: absolute;
+  overflow: hidden;
+  top: 62%;
+  left: 50%;
+  line-height: 1.5;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text1 p {
+  color: #000;
+  font-size: 10px;
+  font-weight: 400;
+}
+.text1 b {
+  font-size: 10px;
+  font-weight: 800;
+}
+.market-team {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+}
+.market-team img {
+  width: 100%;
+}
+.market {
+  position: relative;
+  width: 280px;
+  padding: 10px 0px;
+}
+.market-img {
+  width: 280px;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+.market-img:hover .overlay2 {
+  top: 0;
+  height: 75%;
+}
+.text2 {
+  white-space: nowrap;
+  color: #000;
+  font-family: sans-serif;
+  text-align: justify;
+  position: absolute;
+  overflow: hidden;
+  top: 62%;
+  left: 50%;
+  line-height: 1.5;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text2 p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+.text2 b {
+  font-size: 15px;
+  font-weight: 800;
+}
+.markets {
+  width: 100%;
+}
+.marketing :hover {
+  background: linear-gradient(180deg, #c1d834 0%, #5eae60 100%);
+}
+.c-team {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+.c-team img {
+  width: 100%;
+}
+.creative-team {
+  position: relative;
+  width: 180px;
+  padding: 10px 0px;
+}
+.create-img {
+  width: 180px;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+.create-img:hover .overlay3 {
+  top: 0;
+  height: 70%;
+}
+.text3 {
+  white-space: wrap;
+  color: #000;
+  font-family: sans-serif;
+  text-align: justify;
+  position: absolute;
+  overflow: hidden;
+  top: 62%;
+  left: 50%;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text3 p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.text3 b {
+  font-size: 12px;
+  font-weight: 800;
+}
+.create {
+  width: 100%;
+}
+.creative :hover {
+  background: linear-gradient(180deg, #c1d834 0%, #5eae60 100%);
+}
+.c-team1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 66%;
+  margin-left: 17%;
+}
+.c-team1 img {
+  width: 100%;
+}
+.creative-team1 {
+  position: relative;
+  width: 200px;
+  padding: 10px 0px;
+}
+.create-img1 {
+  width: 200px;
+}
+.create-img1:hover .overlay3 {
+  top: 0;
+  height: 70%;
+}
+.create1 {
+  width: 100%;
+}
+.creative1 :hover {
+  background: linear-gradient(180deg, #c1d834 0%, #5eae60 100%);
+}
+.fab {
+  font-size: 25px;
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
